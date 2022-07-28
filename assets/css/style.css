@@ -1,34 +1,47 @@
+
+/* Cor do Fundo */
+
 body{
     background-color: #ebebeb;
 }
 
+/* Aplicando cor e opacidade na navbar */
 .navbar{
     background-color: #e3e3e3;
     opacity: 90%;
 
 }
 
+/* Aumentando o tamanho dos links e mudando a cor dos links da navbar */
+
 .nav-link{
     font-size: 1.1rem;
     color: rgb(32, 32, 32);
 }
 
+/* Deixando a pagina home com 100% do tamanho na posição y */
 .container-height-100vh{
     height: 100vh;
     overflow: hidden;
 }
 
+/* Classe para aplicar cores em textos separados em spam */
 .yellow{
     color: #ff852d
 }
+
+/* Aumentando o peso da fonte na classe display */
 .display-1{
     font-weight: 500;
 }
+
+/* Fundo utilizado na sessão formação do site */
 .formação-bg{
     background-color: #e3e3e3;
     border-radius: 10px;
 }
 
+/* Backgrund utilizado em algumas sessões do site */
 .bg-gray{
     background-color: #e3e3e3;
 }
