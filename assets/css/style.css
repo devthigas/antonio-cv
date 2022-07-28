@@ -1,3 +1,35 @@
 body{
     background-color: #ebebeb;
 }
+
+.navbar{
+    background-color: #e3e3e3;
+    opacity: 90%;
+
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    color: rgb(32, 32, 32);
+}
+
+.container-height-100vh{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.yellow{
+    color: #ff852d
+}
+.display-1{
+    font-weight: 500;
+}
+.formação-bg{
+    background-color: #e3e3e3;
+    border-radius: 10px;
+}
+
+.bg-gray{
+    background-color: #e3e3e3;
+}
+
