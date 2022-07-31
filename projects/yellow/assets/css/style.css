@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Poppins:wght@400&display=swap');
+
+:root{
+  --background:#F4DE10;
+  --font:#000;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:var(--background);
+}
+.imagem{
+  width: 100%;
+}
+header .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding:25px 0;
+}
+
+
+
+main .container{
+  display: flex;
+  justify-content: space-evenly;
+  
+  flex-wrap: wrap;
+  padding:50px 0;
+}
+.item{
+  max-width: 400px;
+  padding:0 50px;  
+}
+.nav {
+  display: flex;
+  gap:20px;
+}
+.nav a {
+  font-weight: 275;
+  font-size: 25px;
+  line-height: 60px;
+
+  color: #000;
+ 
+}
+main img{
+
+  width: 100%;
+}
+
+.descricao {
+  text-align: center ;
+ 
+  margin:auto 0;
+  max-width:600px;
+  
+}
+
+footer{
+  text-align: center;
+  margin-top:50px;
+}
+
+
+.descricao h1{
+   width: 100%; 
+  
+  font-family: 'Alice';
+  font-style: normal;
+  font-weight: 400;
+  
+  text-transform: uppercase;
+  font-size: 60px;
+  line-height: 70px;
+  text-align: center;
+
+}
+
+.descricao a {
+  padding:20px 40px;
+  margin-top:15px;
+  display: inline-block;
+  background: #000000;
+  border-radius: 15px;
+  color:#fff;
+
+}
+
+.descricao p {
+  margin-top:5px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 45px;
+
+}
+
+@media screen and (max-width:600px) {
+  .nav{
+    display:none;
+  }
+  header .container{
+      justify-content: flex-start;
+      padding:5px 10px;
+  }
+  
+  .item{
+      width:100%;
+  }
+  .descricao h1 {
+    font-size:2rem;
+    line-height: 45px;
+  }
+  .descricao p {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+
+
+@media screen and (max-width:400px) {
+  .item{
+      width:100%;
+  }
+  .descricao h1 {
+    font-size:1.5rem;
+    line-height: 30px;
+  }
+  .descricao p {
+    font-size: 10px;
+    line-height: 20px;
+  }
+ 
+}
